@@ -1,17 +1,20 @@
 import React from "react";
-import songs from "../data/musicData";
 import "./Music.css";
+import musicData from "../data/musicData";
 
 const Music = () => {
   return (
-    <div className="page fade-in">
-      <h1>Music Library</h1>
-      <div className="song-grid">
-        {songs.map((song, idx) => (
-          <div key={idx} className="song-card">
+    <div className="music-container">
+      <h1 className="music-title">🎵 Your Music Library</h1>
+      <div className="music-grid">
+        {musicData.map((song, index) => (
+          <div className="music-card" key={index}>
             <img src={song.image} alt={song.title} />
             <h3>{song.title}</h3>
-            <audio controls src={song.url}></audio>
+            <audio controls>
+              <source src={song.url} type="audio/mpeg" />
+              Your browser does not support the audio element.
+            </audio>
           </div>
         ))}
       </div>

@@ -1,54 +1,56 @@
-const songs = [
+// src/data/musicData.js
+
+const musicData = [
   {
-    title: "Song 1",
-    image: "https://picsum.photos/id/237/200/200",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"
+    title: "Track 1 - Chill Vibes",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    image: "https://source.unsplash.com/300x300/?music,1",
   },
   {
-    title: "Song 2",
-    image: "https://picsum.photos/id/238/200/200",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"
+    title: "Track 2 - Summer Beats",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    image: "https://source.unsplash.com/300x300/?music,2",
   },
   {
-    title: "Song 3",
-    image: "https://picsum.photos/id/239/200/200",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"
+    title: "Track 3 - Electro Night",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    image: "https://source.unsplash.com/300x300/?dj,3",
   },
   {
-    title: "Song 4",
-    image: "https://picsum.photos/id/240/200/200",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"
+    title: "Track 4 - Lo-Fi Chill",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    image: "https://source.unsplash.com/300x300/?lofi,4",
   },
   {
-    title: "Song 5",
-    image: "https://picsum.photos/id/241/200/200",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3"
+    title: "Track 5 - Indie Dreams",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+    image: "https://source.unsplash.com/300x300/?indie,5",
   },
   {
-    title: "Song 6",
-    image: "https://picsum.photos/id/242/200/200",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3"
+    title: "Track 6 - Road Trip",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+    image: "https://source.unsplash.com/300x300/?car,6",
   },
   {
-    title: "Song 7",
-    image: "https://picsum.photos/id/243/200/200",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3"
+    title: "Track 7 - Bass Drop",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+    image: "https://source.unsplash.com/300x300/?bass,7",
   },
   {
-    title: "Song 8",
-    image: "https://picsum.photos/id/244/200/200",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3"
+    title: "Track 8 - Calm Nights",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+    image: "https://source.unsplash.com/300x300/?night,8",
   },
   {
-    title: "Song 9",
-    image: "https://picsum.photos/id/245/200/200",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3"
+    title: "Track 9 - Dance Floor",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+    image: "https://source.unsplash.com/300x300/?party,9",
   },
   {
-    title: "Song 10",
-    image: "https://picsum.photos/id/246/200/200",
-    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3"
-  }
+    title: "Track 10 - Sunset Vibes",
+    url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+    image: "https://source.unsplash.com/300x300/?sunset,10",
+  },
 ];
 
-export default songs;
+export default musicData;
