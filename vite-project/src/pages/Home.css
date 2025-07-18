@@ -1,9 +1,62 @@
+/* src/pages/Home.css */
+
 .home-container {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 80vh;
-  background: linear-gradient(to right, #1db954, #121212);
   text-align: center;
+  background: linear-gradient(to bottom right, #1db954, #121212);
+  color: white;
+  padding: 0 20px;
+  animation: fadeInBg 1s ease-in-out;
+}
+
+.hero-content {
+  max-width: 800px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.glow-text {
+  font-size: 3rem;
+  font-weight: 800;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  margin-bottom: 20px;
+  animation: pulse 2.5s infinite;
+}
+
+.explore-button {
+  margin-top: 20px;
+  padding: 12px 28px;
+  font-size: 1.1rem;
+  background-color: white;
+  color: #1db954;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.explore-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Animations */
+@keyframes pulse {
+  0% { text-shadow: 0 0 10px rgba(255,255,255,0.3); }
+  50% { text-shadow: 0 0 20px rgba(255,255,255,0.6); }
+  100% { text-shadow: 0 0 10px rgba(255,255,255,0.3); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInBg {
+  from { background-color: #000; }
+  to { background: linear-gradient(to bottom right, #1db954, #121212); }
 }
