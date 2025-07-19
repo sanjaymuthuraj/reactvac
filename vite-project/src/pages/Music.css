@@ -3,7 +3,7 @@
 .music-container {
   min-height: 100vh;
   padding: 50px 30px;
-  background: linear-gradient(120deg, #1db954, #191414, #3f3f3f);
+  background: linear-gradient(135deg, #212121, #3eff41);
   color: white;
   text-align: center;
   animation: fadeIn 1s ease-in-out;
@@ -37,7 +37,7 @@
 
 .music-card:hover {
   transform: scale(1.05) rotateY(3deg);
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 20px 35px rgba(67, 243, 90, 0.5);
 }
 
 .music-card img {
