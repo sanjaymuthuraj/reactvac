@@ -1,24 +1,16 @@
-.light {
-  background-color: #ffffff;
-  color: #000000;
+ 
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   transition: background-color 0.5s, color 0.5s;
+  overflow-x: hidden;
+}
+ 
+
+.content {
+  padding: 10px;
+  padding-top: 70px;
 }
 
-.dark {
-  background-color: #121212;
-  color: #ffffff;
-  transition: background-color 0.5s, color 0.5s;
-}
-
-.theme-toggle {
-  position: fixed;
-  bottom: 12px;
-  right: 20px;
-  background-color: #1db954;
-  color: white;
-  border: none;
-  padding: 10px 16px;
-  border-radius: 30px;
-  cursor: pointer;
-  z-index: 1000;
-}
+ 
+ 
